@@ -1,18 +1,16 @@
 ---
-layout: home
+layout: packages
 title: About
 tab: about
 ---
 
 # The Werx Project for PHP
 
-What is the Werx Project?
+## Overview
 
-It is a "glue" project created by [Josh Moody](http://www.joshmoody.com) to bring together the components
-you need to build an application without all the overhead and learning curve associated with the big PHP frameworks.
+The Werx project is not a framework. It is a "glue" project created by [Josh Moody](http://www.joshmoody.com) to bring together the components
+you need to build a PHP application without all the overhead and learning curve associated with the big PHP frameworks.
 
-The Werx Project is *NOT* a framework.
- 
 I appreciate the hard work that has gone into creating these amazing PHP frameworks. I just think full stack frameworks
 are overkill for many developers working on small-ish projects.
 
@@ -31,24 +29,20 @@ Not strictly required, but very useful:
 - Object-oriented abstraction for HTTP requests/responses
 - Form Validation
 
+## Third Party Components
+
 The goal of this project is to combine into a cohesive package some of the best components in the community to meet these needs.
 There are over 20,000 libraries available on [Packagist](https://packagist.org/). Surely there is one there to fit just about every need.
 
-This is also an experiment to see if you really can build a system composed entirely of other components without actually using a framework (or building a framework in the process).
+Here are the primary packages that make up the heart of the Werx Project:
 
-At present, the Werx project consists of 2 main projects:
+- Database Abstraction - [Illuminate\Database](https://github.com/illuminate/database)
+- HTTP Abstraction [Symfony\HttpFoundation](https://github.com/symfony/HttpFoundation)
+- Routing - [Aura.Router](https://github.com/auraphp/Aura.Router)
+- Templates - [Plates](http://platesphp.com/)
+- Unit Tests - [PHPUnit](https://github.com/sebastianbergmann/phpunit) (of course, why use anything else?)
 
-- [werx\Core](https://github.com/werx/core) : A front controller that provides routing and dispatching. Includes the following components:
+## Werx Packages
 
-	- Config Management - [werx\Config](https://github.com/werx/config)
-	- Database Abstraction - [Illuminate\Database](https://github.com/illuminate/database)
-	- Form Validation - Still looking.
-	- HTTP Abstraction [Symfony\HttpFoundation](https://github.com/symfony/HttpFoundation)
-	- Routing - [Aura.Router](https://github.com/auraphp/Aura.Router)
-	- Templates - [Plates](http://platesphp.com/)
-	- Unit Tests - [PHPUnit](https://github.com/sebastianbergmann/phpunit) (of course, why use anything else?)
-
-- [werx\Skeleton](https://github.com/werx/skeleton): A simple web application skeleton implementing the werx\Core features.
-
-Check back soon to see how the project is progressing.
-
+In addition to the above third party packages, I've also released a few component packages myself. As much as I wanted
+to strictly use third party components, I've found instances where it was easier to release my own reusable packages.
