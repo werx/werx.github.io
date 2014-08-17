@@ -4,7 +4,8 @@ title: Packages
 tab: packages
 ---
 
-<h1>Packages / Config</h1>
+<h1>Werx.Config</h1>
+
 <p class="pull-right"><a class="btn btn-info btn-sm" href="https://github.com/werx/config">View Source</a></p>
 
 [![Build Status](https://travis-ci.org/werx/config.png?branch=master)](https://travis-ci.org/werx/config) [![Total Downloads](https://poser.pugx.org/werx/config/downloads.png)](https://packagist.org/packages/werx/config) [![Latest Stable Version](https://poser.pugx.org/werx/config/v/stable.png)](https://packagist.org/packages/werx/config)

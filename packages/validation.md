@@ -4,7 +4,7 @@ title: Packages
 tab: packages
 ---
 
-<h1>Packages / Validation</h1>
+<h1>Werx.Validation</h1>
 <p class="pull-right"><a class="btn btn-info btn-sm" href="https://github.com/werx/validation">View Source</a></p>
 
 [![Build Status](https://travis-ci.org/werx/validation.png?branch=master)](https://travis-ci.org/werx/validation) [![Total Downloads](https://poser.pugx.org/werx/validation/downloads.png)](https://packagist.org/packages/werx/validation) [![Latest Stable Version](https://poser.pugx.org/werx/validation/v/stable.png)](https://packagist.org/packages/werx/validation)

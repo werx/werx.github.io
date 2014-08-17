@@ -4,7 +4,7 @@ title: Packages
 tab: packages
 ---
 
-<h1>Packages / Skeleton</h1>
+<h1>Werx.Skeleton</h1>
 <p class="pull-right"><a class="btn btn-info btn-sm" href="https://github.com/werx/skeleton">View Source</a></p>
 
 [![Total Downloads](https://poser.pugx.org/werx/skeleton/downloads.png)](https://packagist.org/packages/werx/skeleton) [![Latest Stable Version](https://poser.pugx.org/werx/skeleton/v/stable.png)](https://packagist.org/packages/werx/skeleton)

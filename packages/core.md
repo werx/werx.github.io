@@ -4,11 +4,18 @@ title: Packages
 tab: packages
 ---
 
-<h1>Packages / Core</h1>
+<h1>Werx.Core</h1>
 
 <p class="pull-right"><a class="btn btn-info btn-sm" href="https://github.com/werx/core">View Source</a></p>
 
 [![Build Status](https://travis-ci.org/werx/core.png?branch=master)](https://travis-ci.org/werx/core) [![Total Downloads](https://poser.pugx.org/werx/core/downloads.png)](https://packagist.org/packages/werx/core) [![Latest Stable Version](https://poser.pugx.org/werx/core/v/stable.png)](https://packagist.org/packages/werx/core)
+
+<p class="lead">The glue that holds everything together.</p>
+
+## Quick Start
+
+<p>The best way to get started with the Werx Project is to <a href="/packages/skeleton/#installation">download and install the Skeleton</a>,
+or you can keep reading for details on the components.</p>
 
 <ul>
     <li><a href="/packages/core/#routing">Routing</a></li>
