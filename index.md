@@ -45,4 +45,10 @@ Here are the primary packages that make up the heart of the Werx Project:
 ## Werx Packages
 
 In addition to the above third party packages, I've also released a few component packages myself. As much as I wanted
-to strictly use third party components, I've found instances where it was easier to release my own reusable packages.
+to strictly use third party components, I've found instances where it made more sense to release my own reusable packages.
+
+<ul>
+    <li><a href="/packages/config/">Config</a></li>
+    <li><a href="/packages/url/">Url</a></li>
+    <li><a href="/packages/validation/">Validation</a></li>
+</ul>

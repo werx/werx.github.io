@@ -14,21 +14,19 @@ tab: packages
 
 ## Quick Start
 
-<p>The best way to get started with the Werx Project is to <a href="/packages/skeleton/#installation">download and install the Skeleton</a>,
+<p>The best way to get started with the Werx Project is to <a href="/packages/skeleton/">download and install the Skeleton</a>,
 or you can keep reading for details on the components.</p>
 
 <ul>
-    <li><a href="/packages/core/#routing">Routing</a></li>
-    <li><a href="/packages/core/#configuration">Configuration</a></li>
-    <li><a href="/packages/core/#templates">Templates</a></li>
-    <li><a href="/packages/core/#http-abstraction">HTTP Abstraction</a></li>
-    <li><a href="/packages/core/#database">Database</a></li>
+    <li><a href="#directory-structure">Directory Structure</a></li>
+    <li><a href="#front-controller">Front Controller</a></li>
+    <li><a href="#routing">Routing</a></li>
+    <li><a href="#configuration">Configuration</a></li>
+    <li><a href="#templates">Templates</a></li>
+    <li><a href="#http-abstraction">HTTP Abstraction</a></li>
+    <li><a href="#database">Database</a></li>
 </ul>
-## Suggested Directory Structure
-
-- Your application resides in `src/` and has a base namespace of `Example\Project`
-- Your controllers are in `src/controllers/` and have a namespace of `Example\Project\Controllers`
-	- Your controllers extend `werx\Core\Controller`
+## Directory Structure
 
 ```
 src/
@@ -53,6 +51,9 @@ web/
 	index.php
 	composer.json
 ```
+
+- Your application resides in `src/`
+- Your controllers are in `src/controllers/` and extend `werx\Core\Controller`
 
 ## Front Controller
 Your `web/index.php` serves as the front controller and contains the following content:
@@ -119,7 +120,7 @@ src/
 For more information on routing options, see <https://github.com/auraphp/Aura.Router>.
 
 ## Configuration
-The configuration manger is built on [werx\Config](https://github.com/werx/config)
+The configuration manger is built on [werx\Config](/packages/config/)
 
 ### Basic Configuration Usage
 
@@ -306,7 +307,7 @@ class Home extends Controller
 }
 ```
 
-### $_GET and $_POST
+### $\_GET and $\_POST
 
 The Core Controller has a reference to the httpFoundation `Request` object, but I find the syntax for accessing `$_GET` and `$_POST` attributes less than ideal. So, I've built a wrapper around the httpFoundation `Request` object to make the syntax friendlier.
 

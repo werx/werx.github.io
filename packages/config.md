@@ -21,6 +21,7 @@ tab: packages
             <li><a href="#loading-a-configuration-group">Loading A Configuration Group</a></li>
         </ul>
     </li>
+    <li><a href="#installation">Installation</a>
 </ul>
 
 

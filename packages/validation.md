@@ -9,14 +9,15 @@ tab: packages
 
 [![Build Status](https://travis-ci.org/werx/validation.png?branch=master)](https://travis-ci.org/werx/validation) [![Total Downloads](https://poser.pugx.org/werx/validation/downloads.png)](https://packagist.org/packages/werx/validation) [![Latest Stable Version](https://poser.pugx.org/werx/validation/v/stable.png)](https://packagist.org/packages/werx/validation)
 
-<ul>
-    <li><a href="/packages/validation/#validators">Validators</a></li>
-    <li><a href="/packages/validation/#validation-engine">Validation Engine</a></li>
-</ul>
-
 <p class="lead">Provides set of standard validation methods and an input validation engine.</p>
 
-### Validators
+<ul>
+    <li><a href="#validators">Validators</a></li>
+    <li><a href="#validation-engine">Validation Engine</a></li>
+    <li><a href="#installation">Installation</a></li>
+</ul>
+
+## Validators
 
 The Validator class can be used to quickly validate a single piece of input.
 
@@ -59,10 +60,10 @@ bool regex(mixed $input, string $regex)
 bool inlist(mixed $input, array $list)
 ```
 
-### Validation Engine
+## Validation Engine
 The Validation Engine is used to validate a set of data against a set of rules.
 
-#### Usage
+### Usage
 First, get an instance of the Validation Engine:
 
 ``` php
@@ -76,7 +77,7 @@ Then add rules:
 ``` php
 $validator->addRule('firstname', 'First Name', 'required|minlength[2]|alpha');
 ```
-##### Parameters
+#### Parameters
 
 - Form input name / array key of the element you are validating
 - User friendly label for the element
@@ -95,7 +96,7 @@ Now you can get a validation result.
 $valid = $validator->validate($_POST);
 ```
 
-##### Validating Input Arrays
+#### Validating Input Arrays
 Sometimes you aren't using a simple string as your input field name. Let's say your HTML input form is something like this:
 
 ``` html
@@ -172,7 +173,7 @@ $validator->addRuleset($contact_rules);
 $valid = $validator->validate();
 ```
 
-#### Utility Methods
+### Utility Methods
 
 There are a couple utilities to make dealing with validation results easier.
 
