@@ -51,4 +51,5 @@ to strictly use third party components, I've found instances where it made more 
     <li><a href="/packages/config/">Config</a></li>
     <li><a href="/packages/url/">Url</a></li>
     <li><a href="/packages/validation/">Validation</a></li>
+    <li><a href="/packages/email/">Email</a></li>
 </ul>

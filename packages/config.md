@@ -1,6 +1,6 @@
 ---
 layout: packages
-title: Packages
+title: Config
 tab: packages
 ---
 
