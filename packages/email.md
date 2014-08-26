@@ -9,7 +9,7 @@ tab: packages
 
 [![Total Downloads](https://poser.pugx.org/werx/email/downloads.png)](https://packagist.org/packages/werx/email) [![Latest Stable Version](https://poser.pugx.org/werx/email/v/stable.png)](https://packagist.org/packages/werx/email)
 
-This is a port of the [CodeIgniter](https://github.com/EllisLab/CodeIgniter/) email class updated to work outside of CodeIgniter.
+<p class="lead">Use <a href="https://github.com/EllisLab/CodeIgniter/">CodeIgniter's</a> email library outside CodeIgniter.</p>
 
 Full Documentation at <http://ellislab.com/codeigniter/user-guide/libraries/email.html>
 
