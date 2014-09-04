@@ -167,6 +167,30 @@ You can also dynamically select an option with default override if the value was
 <?=Form::select('state')->getValue('AR')->data(['AR' => 'Arkansas', 'TX' => 'Texas', 'OK' => 'Oklahoma'])?>
 ```
 
+In the previous example, we've used an associative array where the array keys were used for the option values and the array values where used for the option display text.
+
+``` html
+<select name="state" id="state">
+    <option value="TX">Texas</option>
+    <option value="AR">Arkansas</option>
+    <option value="OK">Oklahoma</option>
+</select>
+```
+
+Sometimes, you may want to use the array values for both the option values and the display text. To accomplish this, pass `true` as the second parameter to `data()`.
+
+```php
+<?=Form::select('color')->data(['Red', 'White', 'Blue'], true)->selected('White')?>
+```
+
+``` html
+<select name="color" id="color">
+    <option value="Red">Red</option>
+    <option selected="selected" value="White">White</option>
+    <option value="Blue">Blue</option>
+</select>
+```
+
 ### Checkboxes and Radios
 
 You can also use the builder to create checkboxes and radios. As with the other elements, items will be pre-checked if they were passed to `Form::setData()`.
