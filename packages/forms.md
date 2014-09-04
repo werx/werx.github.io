@@ -11,15 +11,6 @@ tab: packages
 
 <p class="lead">Framework agnostic form helpers.</p>
 
-## About
-I've never found form libraries terribly useful. In my experience, they either work only for the most simple forms, or end up being way more difficult to use than just writing the HTML by hand.
-
-That said, I do need some really basic form helpers to easily pre-populate form fields (like from previous POST to correct errors or from a database) and build drop down boxes.
-
-The primary goal of this library is to solve those 2 problems in a way I don't hate. If I can make some more robust form helpers that don't get in my way while I'm at it, all the better.
-
-This library provides helpers for setting default values in otherwise static html form elements as well as an input builder for dynamically creating form elements.
-
 <ul>
     <li><a href="#about">About</a></li>
     <li><a href="#form-basics">Form Basics</a></li>
@@ -30,7 +21,17 @@ This library provides helpers for setting default values in otherwise static htm
     <li><a href="#installation">Installation</a></li>
 </ul>
 
-All examples below assume you are using the Composer Autoloader and have imported the correct namespace.
+## About
+I've never found form libraries terribly useful. In my experience, they either work only for the most simple forms, or end up being way more difficult to use than just writing the HTML by hand.
+
+That said, I do need some really basic form helpers to easily pre-populate form fields (like from previous POST to correct errors or from a database) and build drop down boxes.
+
+The primary goal of this library is to solve those 2 problems in a way I don't hate. If I can make some more robust form helpers that don't get in my way while I'm at it, all the better.
+
+This library provides helpers for setting default values in otherwise static html form elements as well as an input builder for dynamically creating form elements.
+
+
+> All examples below assume you are using the Composer Autoloader and have imported the correct namespace.
 
 ``` php
 use werx\Forms\Form;
