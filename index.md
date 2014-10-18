@@ -8,49 +8,30 @@ tab: about
 
 ## Overview
 
-The Werx project is not a framework. It is a "glue" project created by [Josh Moody](http://www.joshmoody.com) to bring together the components
-you need to build a PHP application without all the overhead and learning curve associated with the big PHP frameworks.
+Werx is a micro-framework for PHP 5.4+. It brings together the building blocks you need to build a PHP application without all the overhead and learning curve associated with the big PHP frameworks.
 
-I appreciate the hard work that has gone into creating these amazing PHP frameworks. I just think full stack frameworks
-are overkill for many developers working on small-ish projects.
+### Features
 
-Here's what I really need when writing applications (alphabetically):
+I've combined some of the best [composer packages](https://packagist.org/) I could find to provide most of the core functionality:
 
-- Configuration Management
-	- Has to support per-environment settings (local, test, stage, prod)
-- Database Abstraction
-- Routing
-- Templating
-	- Native PHP. I don't need a templating language - I have PHP.
-- Unit Tests
-
-Not strictly required, but very useful:
-
-- Object-oriented abstraction for HTTP requests/responses
-- Form Validation
-
-## Third Party Components
-
-The goal of this project is to combine into a cohesive package some of the best components in the community to meet these needs.
-There are over 20,000 libraries available on [Packagist](https://packagist.org/). Surely there is one there to fit just about every need.
-
-Here are the primary packages that make up the heart of the Werx Project:
-
-- Database Abstraction - [Illuminate\Database](https://github.com/illuminate/database)
-- HTTP Abstraction [Symfony\HttpFoundation](https://github.com/symfony/HttpFoundation)
-- Routing - [Aura.Router](https://github.com/auraphp/Aura.Router)
-- Templates - [Plates](http://platesphp.com/)
-- Unit Tests - [PHPUnit](https://github.com/sebastianbergmann/phpunit) (of course, why use anything else?)
-
-## Werx Packages
+- Database Abstraction ([Illuminate/Database](https://github.com/illuminate/database))
+- HTTP Abstraction ([Symfony\HttpFoundation](https://github.com/symfony/HttpFoundation))
+- Routing ([Aura.Router](https://github.com/auraphp/Aura.Router))
+- Templating ([Plates](http://platesphp.com/))
+- Unit Tests ([PHPUnit](https://github.com/sebastianbergmann/phpunit) of course, why use anything else?)
 
 In addition to the above third party packages, I've also released a few component packages myself. As much as I wanted
 to strictly use third party components, I've found instances where it made more sense to release my own reusable packages.
 
-<ul>
-    <li><a href="/packages/config/">Config</a></li>
-    <li><a href="/packages/email/">Email</a></li>
-    <li><a href="/packages/forms/">Forms</a></li>
-    <li><a href="/packages/url/">Url</a></li>
-    <li><a href="/packages/validation/">Validation</a></li>
-</ul>
+- [Configuration Management](/packages/config/)
+    - Multiple Environment Support (local, test, prod, etc)
+    - Extensible configuration providers (array and json supported out of the box)
+- [Email Abstraction](/packages/email/)
+    - Use <a href="https://github.com/EllisLab/CodeIgniter/">CodeIgniter's</a> email library outside CodeIgniter.
+- [Forms](/packages/forms/)
+    - Framework agnostic form helpers.
+- [Url Builder](/packages/url/)
+    - Uses [rize\UriTemplate](https://github.com/rize/UriTemplate) for the heavy lifting of expanding urls with additional functionality to make it easier to build action and asset urls to resources within your application.
+- [Validation](/packages/validation/)
+    - Provides set of standard validation methods and an input validation engine.
+
