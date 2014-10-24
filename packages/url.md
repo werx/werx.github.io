@@ -89,7 +89,7 @@ $output = $template->render('home');
 Then in your view, you can call any of the `werx\Url\Builder` methods via `$this->url()->methodtocall()`.
 
 ```php
-<a href="<?=$this->url()->action(home/details/{id}, 5)?>">Details</a>
+<a href="<?=$this->url()->action('home/details/{id}', 5)?>">Details</a>
 <img src="<?=$this->url()->asset('images/logo.png')?>"/>
 ```
 
