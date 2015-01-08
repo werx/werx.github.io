@@ -5,9 +5,8 @@ tab: packages
 ---
 
 <h1>Werx.Url</h1>
-<p class="pull-right"><a class="btn btn-info btn-sm" href="https://github.com/werx/url">View Source</a></p>
 
-[![Build Status](https://travis-ci.org/werx/url.png?branch=master)](https://travis-ci.org/werx/url) [![Total Downloads](https://poser.pugx.org/werx/url/downloads.png)](https://packagist.org/packages/werx/url) [![Latest Stable Version](https://poser.pugx.org/werx/url/v/stable.png)](https://packagist.org/packages/werx/url)
+[![Source](https://img.shields.io/badge/source-werx/url-blue.svg?style=flat-square)](https://github.com/werx/url) [![Build Status](https://img.shields.io/travis/werx/url.svg?style=flat-square)](https://travis-ci.org/werx/url) [![Total Downloads](https://img.shields.io/packagist/dt/werx/url.svg?style=flat-square)](https://packagist.org/packages/werx/url) [![Latest Stable Version](https://img.shields.io/github/tag/werx/url.svg?label=version&style=flat-square)](https://packagist.org/packages/werx/url)
 
 <p class="lead">Build urls to resources in your app.</p>
 

@@ -6,9 +6,7 @@ tab: packages
 
 <h1>Werx.Core</h1>
 
-<p class="pull-right"><a class="btn btn-info btn-sm" href="https://github.com/werx/core">View Source</a></p>
-
-[![Build Status](https://travis-ci.org/werx/core.png?branch=master)](https://travis-ci.org/werx/core) [![Total Downloads](https://poser.pugx.org/werx/core/downloads.png)](https://packagist.org/packages/werx/core) [![Latest Stable Version](https://poser.pugx.org/werx/core/v/stable.png)](https://packagist.org/packages/werx/core)
+[![Source](https://img.shields.io/badge/source-werx/core-blue.svg?style=flat-square)](https://github.com/werx/core) [![Build Status](https://img.shields.io/travis/werx/core.svg?style=flat-square)](https://travis-ci.org/werx/core) [![Total Downloads](https://img.shields.io/packagist/dt/werx/core.svg?style=flat-square)](https://packagist.org/packages/werx/core) [![Latest Stable Version](https://img.shields.io/github/tag/werx/core.svg?label=version&style=flat-square)](https://packagist.org/packages/werx/core)
 
 <p class="lead">The glue that holds everything together.</p>
 

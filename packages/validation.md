@@ -5,9 +5,8 @@ tab: packages
 ---
 
 <h1>Werx.Validation</h1>
-<p class="pull-right"><a class="btn btn-info btn-sm" href="https://github.com/werx/validation">View Source</a></p>
 
-[![Build Status](https://travis-ci.org/werx/validation.png?branch=master)](https://travis-ci.org/werx/validation) [![Total Downloads](https://poser.pugx.org/werx/validation/downloads.png)](https://packagist.org/packages/werx/validation) [![Latest Stable Version](https://poser.pugx.org/werx/validation/v/stable.png)](https://packagist.org/packages/werx/validation)
+[![Source](https://img.shields.io/badge/source-werx/validation-blue.svg?style=flat-square)](https://github.com/werx/validation) [![Build Status](https://img.shields.io/travis/werx/validation.svg?style=flat-square)](https://travis-ci.org/werx/validation) [![Total Downloads](https://img.shields.io/packagist/dt/werx/validation.svg?style=flat-square)](https://packagist.org/packages/werx/validation) [![Latest Stable Version](https://img.shields.io/github/tag/werx/validation.svg?label=version&style=flat-square)](https://packagist.org/packages/werx/validation)
 
 <p class="lead">Provides set of standard validation methods and an input validation engine.</p>
 

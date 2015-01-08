@@ -5,9 +5,8 @@ tab: packages
 ---
 
 <h1>Werx.Email</h1>
-<p class="pull-right"><a class="btn btn-info btn-sm" href="https://github.com/werx/email">View Source</a></p>
 
-[![Build Status](https://travis-ci.org/werx/email.png?branch=master)](https://travis-ci.org/werx/email) [![Total Downloads](https://poser.pugx.org/werx/email/downloads.png)](https://packagist.org/packages/werx/email) [![Latest Stable Version](https://poser.pugx.org/werx/email/v/stable.png)](https://packagist.org/packages/werx/email)
+[![Source](https://img.shields.io/badge/source-werx/email-blue.svg?style=flat-square)](https://github.com/werx/email) [![Build Status](https://img.shields.io/travis/werx/email.svg?style=flat-square)](https://travis-ci.org/werx/email) [![Total Downloads](https://img.shields.io/packagist/dt/werx/email.svg?style=flat-square)](https://packagist.org/packages/werx/email) [![Latest Stable Version](https://img.shields.io/github/tag/werx/email.svg?label=version&style=flat-square)](https://packagist.org/packages/werx/email)
 
 <p class="lead">Use <a href="https://github.com/EllisLab/CodeIgniter/">CodeIgniter's</a> email library outside CodeIgniter.</p>
 

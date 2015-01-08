@@ -5,9 +5,8 @@ tab: packages
 ---
 
 <h1>Werx.Skeleton</h1>
-<p class="pull-right"><a class="btn btn-info btn-sm" href="https://github.com/werx/skeleton">View Source</a></p>
 
-[![Total Downloads](https://poser.pugx.org/werx/skeleton/downloads.png)](https://packagist.org/packages/werx/skeleton) [![Latest Stable Version](https://poser.pugx.org/werx/skeleton/v/stable.png)](https://packagist.org/packages/werx/skeleton)
+[![Source](https://img.shields.io/badge/source-werx/skeleton-blue.svg?style=flat-square)](https://github.com/werx/skeleton) [![Total Downloads](https://img.shields.io/packagist/dt/werx/skeleton.svg?style=flat-square)](https://packagist.org/packages/werx/skeleton) [![Latest Stable Version](https://img.shields.io/github/tag/werx/skeleton.svg?label=version&style=flat-square)](https://packagist.org/packages/werx/skeleton)
 
 <p class="lead">Use this as a clean starting point in your Werx-based projects.</p>
 

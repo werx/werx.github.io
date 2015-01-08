@@ -6,9 +6,7 @@ tab: packages
 
 <h1>Werx.Config</h1>
 
-<p class="pull-right"><a class="btn btn-info btn-sm" href="https://github.com/werx/config">View Source</a></p>
-
-[![Build Status](https://travis-ci.org/werx/config.png?branch=master)](https://travis-ci.org/werx/config) [![Total Downloads](https://poser.pugx.org/werx/config/downloads.png)](https://packagist.org/packages/werx/config) [![Latest Stable Version](https://poser.pugx.org/werx/config/v/stable.png)](https://packagist.org/packages/werx/config)
+[![Source](https://img.shields.io/badge/source-werx/config-blue.svg?style=flat-square)](https://github.com/werx/config) [![Build Status](https://img.shields.io/travis/werx/config.svg?style=flat-square)](https://travis-ci.org/werx/config) [![Total Downloads](https://img.shields.io/packagist/dt/werx/config.svg?style=flat-square)](https://packagist.org/packages/werx/config) [![Latest Stable Version](https://img.shields.io/github/tag/werx/config.svg?label=version&style=flat-square)](https://packagist.org/packages/werx/config)
 
 <p class="lead">Use environment-specific configuration files in your app.</p>
 
