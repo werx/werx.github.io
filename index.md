@@ -30,6 +30,8 @@ to strictly use third party components, I've found instances where it made more 
     - Use <a href="https://github.com/EllisLab/CodeIgniter/">CodeIgniter's</a> email library outside CodeIgniter.
 - [Forms](/packages/forms/)
     - Framework agnostic form helpers.
+- [Messages](/packages/messages/)
+    - Display various types of messages in a web app.
 - [Url Builder](/packages/url/)
     - Uses [rize\UriTemplate](https://github.com/rize/UriTemplate) for the heavy lifting of expanding urls with additional functionality to make it easier to build action and asset urls to resources within your application.
 - [Validation](/packages/validation/)
