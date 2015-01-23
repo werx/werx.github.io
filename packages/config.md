@@ -161,21 +161,8 @@ $config->load('config');
 ```
 
 ## Installation
-This library is on Packagist at [werx/config](https://packagist.org/packages/werx/config). It can be installed and auto loaded with [composer](https://getcomposer.org).
+This package is installable and autoloadable via Composer as [werx/config](https://packagist.org/packages/werx/config). If you aren't familiar with the Composer Dependency Manager for PHP, [you should read this first](https://getcomposer.org/doc/00-intro.md).
 
-Example composer.json
-
-``` javascript
-{
-	"require": {
-		"werx/config": "dev-master"
-	}
-}
-```
-
-Don't forget to include Composer's auto loader.
-
-``` php
-<?php
-require 'vendor/autoload.php';
+```bash
+$ composer require werx/config --prefer-dist
 ```

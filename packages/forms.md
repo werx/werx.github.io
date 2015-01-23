@@ -247,23 +247,10 @@ You can also add the "required" attribute to any form element.
 
 
 ## Installation
-This library is on Packagist at [werx/forms](https://packagist.org/packages/werx/forms). It can be installed and auto loaded with [composer](https://getcomposer.org).
+This package is installable and autoloadable via Composer as [werx/forms](https://packagist.org/packages/werx/forms). If you aren't familiar with the Composer Dependency Manager for PHP, [you should read this first](https://getcomposer.org/doc/00-intro.md).
 
-Example composer.json
-
-``` javascript
-{
-	"require": {
-		"werx/forms": "dev-master"
-	}
-}
-```
-
-Don't forget to include Composer's auto loader.
-
-``` php
-<?php
-require 'vendor/autoload.php';
+```bash
+$ composer require werx/forms --prefer-dist
 ```
 
 ## Contributing
