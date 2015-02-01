@@ -190,6 +190,61 @@ Sometimes, you may want to use the array values for both the option values and t
 </select>
 ```
 
+### Custom Select Boxes
+
+Two custom select boxes are provided: `selectState()` and `selectCounty()`. These behave exactly as the standard `select()`, but come preloaded with data.
+
+```php
+<?=Form::selectState('state')?>
+```
+> Note: In addition to the 50 U.S. States, the District of Columbia is also presented.
+
+By default, the 2 character state code will be used as the value. If you want to use the full display name as both the display and the value:
+
+``` php
+<?=Form::selectState('state')->useDisplayNameForValue()?>
+```
+
+To generate a `<select>` list of counties, just tell it which U.S. State you want counties for.
+
+``` php
+<?=Form::selectCounty('county')->forState('AR')?>
+```
+
+If you want, you can get the array of state/county data easily enough.
+
+``` php
+$counties = \werx\Forms\DataSets::counties('AR');
+
+/*
+Array
+(
+    [0] => Arkansas
+    [1] => Ashley
+    [2] => Baxter
+    [3] => Benton
+    [4] => Boone
+    [5] => Bradley
+    ...
+*/
+
+$states = \werx\Forms\DataSets::states();
+
+/*
+Array
+(
+    [AL] => Alabama
+    [AK] => Alaska
+    [AZ] => Arizona
+    [AR] => Arkansas
+    [CA] => California
+    [CO] => Colorado
+    [CT] => Connecticut
+    [DE] => Delaware
+    ...
+*/
+```
+
 ### Checkboxes and Radios
 
 You can also use the builder to create checkboxes and radios. As with the other elements, items will be pre-checked if they were passed to `Form::setData()`.
