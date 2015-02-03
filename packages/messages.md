@@ -60,7 +60,7 @@ Messages::error('The quick brown fox jumped over the %s.', 'lazy dog');
 Furthermore, you can add messages as an array:
 
 ```php
-Messages::warning(['This is a warning.', 'This is also a warning']);
+Messages::warning(['This is a warning.', 'This is also a warning.']);
 
 // This is a warning.
 // This is also a warning.
@@ -79,17 +79,17 @@ Array
 (
     [error] => Array
         (
-            [0] => Oops, something bad happened
+            [0] => Oops, something bad happened.
         )
 
     [info] => Array
         (
-            [0] => Nothing big, this is just a informational message.
+            [0] => Nothing big, this is just an informational message.
         )
 
     [success] => Array
         (
-            [0] => Hooray! This is a success message
+            [0] => Hooray! This is a success message.
             [1] => Here is another success message.
         )
 
@@ -131,7 +131,7 @@ The above renders something like this:
 ```
 
 ## Decorators
-By default, a simple decorator will be used that wraps the messages in a series of unordered lists as shown above. The `<ul>` for each type of message (`error`, `info`, `success`) will be classed with the name of the message type.
+By default, a simple decorator will be used that wraps the messages in a series of unordered lists as shown above. The `<ul>` for each type of message (`error`, `warning`, `info`, `success`) will be classed with the name of the message type.
 
 If you are using [Bootstrap](http://getbootstrap.com/) for your design, you can specify that messages should be decorated using the [Bootstrap Alert HTML Markup](http://getbootstrap.com/components/#alerts) instead.
 
