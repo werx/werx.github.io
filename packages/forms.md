@@ -111,7 +111,8 @@ Checkboxes and Radios work the same way as Selects, using `Form::getChecked()`.
 <input type="radio" name="color" value="Green" <?=Form::getChecked('color', 'Green')?> /> Green
 ```
 
-Use the `conditionalChecked` method if you want to check something pending some condition.
+Use the `conditionalChecked()` method if you want to check something pending some condition.
+
 ``` php
 <?=Form::radio('color')->value('Red')->conditionalChecked($some_value, 'Red')?> Red
 <?=Form::radio('color')->value('Blue')->conditionalChecked($some_value, 'Blue')?> Blue
